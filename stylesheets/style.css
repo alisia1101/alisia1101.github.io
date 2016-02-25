@@ -31,6 +31,7 @@ ACCORDION
 
 /*----- Section Titles -----*/
 .accordion-section-title {
+	background:#33b3a6;/* main color no hover*/
 	width:100%;
 	padding:15px;
 	display:inline-block;
@@ -39,22 +40,25 @@ ACCORDION
 	/* Type */
 	font-size:1.200em;
 	text-shadow:0px 1px 0px #1a1a1a;
+	color:#000000; /*Text Color*/
 }
 
 .accordion-section-title.active, .accordion-section-title:hover{
-	background:#4c4c4c;
+	background:#FF6D1F;/* color when you do hover over it*/
 	/* Type */
 	text-decoration:none;
 }
 
 .accordion-section:last-child .accordion-section-title {
 	border-bottom:none;
+
 }
 
 /*----- Section Content -----*/
 .accordion-section-content {
 	padding:15px;
 	display:none;
+	background:#bfbfbf/* Where your content is at*/
 }
 
 /**********************************
@@ -65,7 +69,9 @@ HEADER
 /**********************************
 MAIN CONTENT
 ***********************************/
-
+body{
+	background:#cccccc;
+}
 
 /**********************************
 FOOTER - Layout and Sizing
